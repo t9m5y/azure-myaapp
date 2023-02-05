@@ -14,7 +14,7 @@
       "name": "documents",
       "type": "cosmosDB",
       "direction": "in",
-      "databaseName": "SvelteTest",
+      "databaseName": "azure-myapp",
       "collectionName": "Todos",
       "sqlQuery": "SELECT * from c where c.pk = 'todos'",
       "connectionStringSetting": "CosmosDBConnection"
